@@ -17,7 +17,7 @@ public class commands extends target{
 		d1.findElement(By.name(txt_un)).sendKeys("arun.pinttu.teja");
 		d1.findElement(By.name(btn_login)).click();
 		Thread.sleep(3000);
-		d1.findElement(By.name(txt_pw)).sendKeys("bh@gy@1991");
+		d1.findElement(By.name(txt_pw)).sendKeys("1234567888");
 		d1.findElement(By.xpath(btn_signin)).click();
 		Thread.sleep(3000);
 		}
