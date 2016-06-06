@@ -17,7 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		g1.findElement(By.name("Email")).sendKeys("gottimukkalaarun");
 		g1.findElement(By.xpath(".//*[@id='next']")).click();
 		Thread.sleep(3000);
-		g1.findElement(By.name("Passwd")).sendKeys("bh@gy@1991");
+		g1.findElement(By.name("Passwd")).sendKeys("0000000");
 		g1.findElement(By.xpath(".//*[@id='signIn']")).click();
 		Thread.sleep(3000);
 		System.out.println("login compeleted");
