@@ -31,8 +31,8 @@ public class pizza {
 		p1.findElement(By.name("regPhone")).sendKeys("8148125225");
 		p1.findElement(By.name("regEmail")).sendKeys("arun.pinttu.teja@gmail.com");
 		p1.findElement(By.name("regReEmail")).sendKeys("arun.pinttu.teja@gmail.com");
-		p1.findElement(By.name("reg-password")).sendKeys("BH@gy@1991");
-		p1.findElement(By.name("regRePassword")).sendKeys("BH@gy@1991");
+		p1.findElement(By.name("reg-password")).sendKeys("00000000");
+		p1.findElement(By.name("regRePassword")).sendKeys("0000000");
 		p1.findElement(By.name("opt-in-deals")).click();
 		p1.findElement(By.name("regTerms")).click();
 		p1.findElement(By.xpath(".//*[@id='reg-age-13']")).click();
