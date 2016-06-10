@@ -15,7 +15,7 @@ public class applyingjob {
 		
 		job.findElement(By.xpath(".//*[@id='Login_1']")).click();
 		job.findElement(By.xpath(".//*[@id='Email_1']")).sendKeys("gottimukkalaarun@gmail.com");
-		job.findElement(By.xpath(".//*[@id='Password_1']")).sendKeys("bh@gy@1991");
+		job.findElement(By.xpath(".//*[@id='Password_1']")).sendKeys("12358464");
 		job.findElement(By.xpath(".//*[@id='LoginBtn_1']")).click();
 		Thread.sleep(3000);
 		job.findElement(By.name("q")).sendKeys("selenium");
